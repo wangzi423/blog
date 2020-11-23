@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/*
+animation-duration
+设置动画多长时间完成
+
+
+animation-fill-mode
+设置动画之外的元素状态
+
+none： 默认值。不设置对象动画之外的状态
+forwards： 设置对象状态为动画结束时的状态
+backwards： 设置对象状态为动画开始时的状态
+both： 设置对象状态为动画结束或开始的状态
+
+
+animation-name指定动画名称
+
+
+
+-moz代表firefox浏览器私有属性
+-ms代表IE浏览器私有属性
+-webkit代表chrome、safari私有属性
+
+
+*/
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    z-index: 100;
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+
+
+

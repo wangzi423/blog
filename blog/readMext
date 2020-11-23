@@ -1,0 +1,23 @@
+博客项目:
+Spring+SpringMVC+Mybatis(通用Mapper)+Jquery
++KingEditor+BootStrap+Redis+Nginx+Linux
+
+后台
+    文章管理(crud操作)、标签管理、友情链接、用户管理
+
+前台
+    热门文章展示、不同栏目的文章展示
+
+
+项目环境搭建
+1、pom.xml
+2、配置文件
+    spring
+        applicationContext.xml
+    springmvc
+        springMVC.xml
+    mybatis
+        XXXMapper.xml
+
+    web.xml
+3、测试

@@ -1,0 +1,38 @@
+@charset "utf-8";
+/*
+max-width   设置段落最大宽度
+z-index     设置层叠优先级   越大越好
+margin      设置所有距边属性
+margin:10px 5px 15px 20px;
+上边距是 10px
+右边距是 5px
+下边距是 15px
+左边距是 20px
+
+margin:10px 5px 15px;
+上边距是 10px
+右边距和左边距是 5px
+下边距是 15px
+
+margin:10px 5px;
+上边距和下边距是 10px
+右边距和左边距是 5px
+
+margin:10px;
+所有四个边距都是 10px
+
+text-align
+指定元素文本的水平对齐方式。
+left   right   center
+justify  两端对齐
+inherit   与父类相同
+*/
+
+.login{
+    padding-top: 130px;/*设置距离顶部高度*/
+    max-width: 400px;
+    z-index: 100;
+    margin: 0 auto;/*距离4边都是0*/
+    text-align: center;
+    width: 300px;
+}

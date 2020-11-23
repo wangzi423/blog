@@ -1,0 +1,103 @@
+@charset "utf-8";
+/*
+display
+规定元素应该生成的框的类型
+none 不显示
+block  块显示
+list-item  列表显示
+
+padding
+填充    上右下左
+
+line-height
+设置行间距
+
+box-shadow
+添加阴影
+inset 可选
+
+
+
+margin-bottom
+
+设置下边距
+
+vertical-align
+设置垂直对齐方式
+
+cursor
+设置光标显示状态
+auto  默认浏览器光标
+crosshair  十字标
+pointer   小手
+text   文本
+wait   等待
+help    帮助
+*/
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.form-group {
+    margin-bottom: 15px
+}
+
+
+.btn {
+
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    /*设置是否能被选中*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    cursor: pointer;
+
+}
+.m-b {
+    margin-bottom: 15px;
+}
+.full-width {
+    width: 100% !important;
+}
+.block {
+    display: block;
+}
+.btn-primary {
+    background-color: #1ab394;
+    border-color: #1ab394;
+    color: #FFFFFF;
+}
+
+
+
